@@ -1,0 +1,152 @@
+.titleContainer {
+    text-align: center;
+}
+
+    .title {
+        margin-top: 1rem;
+        display: inline-block; 
+        font-size: 3rem;
+        padding: 0.5rem;
+        border-radius: 2rem;
+        border: #3f48cc 0.2rem solid;
+        background-color:#091141;
+        font-family: "Calibri", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        color: #ddad29;
+        -webkit-text-stroke-width: 0.2px; 
+        -webkit-text-stroke-color: black; 
+    }
+
+    .container {    
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        background-color: #3f48cc;
+        border: #ffcb17 0.2rem solid;
+        text-align: center;
+        width: 60%;
+    }
+    
+    .container h2 {
+        margin-right: 1rem;
+        font-family: "Gadugi", sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #ddad29;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: black; 
+        box-sizing: border-box; 
+    }
+    
+    .formContainer {
+        margin-top: 0.5rem;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+        align-items: center;
+        box-sizing: border-box; 
+    }
+
+    .formContainer div {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 0.2rem;
+        position: relative; /* Agregamos posición relativa */
+    }
+    
+    .formContainer label {
+        margin: auto;
+        font-family: "Gadugi", sans-serif;
+        font-weight: bold;
+        font-style:normal;
+        font-size: 1rem;
+        text-align: center;
+        color: #ddad29;
+        -webkit-text-stroke-width: 0.1px; 
+        -webkit-text-stroke-color: black;
+        width: 12rem;
+    }
+    
+    .formContainer input {
+        margin: auto;
+        border: #ddad29 0.2rem solid;
+        border-radius: 0.5rem;
+        width: 15rem;
+    }
+
+.formContainer img {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.formContainer img:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.formContainer div {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    position: relative; /* Agregamos posición relativa */
+}
+
+.formContainer label {
+    margin: auto;
+    font-family: "Gadugi", sans-serif;
+    font-weight: bold;
+    font-style:normal;
+    font-size: 1rem;
+    text-align: center;
+    color: #ddad29;
+    -webkit-text-stroke-width: 0.1px; 
+    -webkit-text-stroke-color: black;
+    width: 12rem;
+}
+
+.formContainer input {
+    margin: auto;
+    border: #ddad29 0.2rem solid;
+    border-radius: 0.5rem;
+    width: 15rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem; /* Espacio entre los contenedores de entrada */
+}
+
+.error {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(163, 0, 0);
+    -webkit-text-stroke-width: 0.2px; 
+    -webkit-text-stroke-color: black;
+    margin-top: 1rem; /* Espacio entre el input y el mensaje de error */
+}
+
+.spinnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}

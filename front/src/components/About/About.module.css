@@ -1,0 +1,104 @@
+.container {
+    margin-top: 1rem;
+    border: #3f48cc 0.2rem solid;
+    border-radius: 2rem;
+    background-color: #2b0057;
+    min-height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 1.5rem;
+}
+
+.text {
+    margin-right: 1rem;
+    flex:1;
+}
+
+.title {
+    text-align: left;
+    font-family: "Gadugi", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    -webkit-text-stroke-width: 0.2px; 
+    -webkit-text-stroke-color: black; 
+}
+
+.description {
+    text-align: left;
+    font-family: "Cambria", sans-serif;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.2px; 
+    -webkit-text-stroke-color: black; 
+}
+
+.card {
+    width: 40%;
+    padding: 0.5rem;
+    border: #3f48cc 0.2rem solid;
+    border-radius: 2rem;
+    background-color: rgb(12, 0, 80);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+}
+
+.socialContainer {
+    border: #3f94cc 0.2rem solid;
+    border-radius: 1rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+}
+
+.containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+}
+
+.containerTwo:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+}
+
+  /* Whatsapp */
+.containerThree:hover {
+    background-color: #027c39;
+    transition-duration: .3s;
+}
+
+.socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+}
+
+.socialPNG {
+    width: 2rem;
+    height: 2rem;
+}
+
+.socialContainer:hover .socialPNG {
+    animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+    0% {
+    transform: translateY(-50px);
+    opacity: 0;
+    }
+
+    100% {
+    transform: translateY(0);
+    opacity: 1;
+    }
+}

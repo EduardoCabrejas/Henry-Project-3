@@ -1,0 +1,24 @@
+body {
+  margin: auto;
+  max-width: 1920px;
+  /* background-color: rgb(226, 217, 170); */
+  background: linear-gradient(180deg, black 0%, rgb(63, 19, 219)50%, black 100%);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  flex-shrink: 0;
+}
+
+#about-container {
+  margin-top: 5rem;
+}

@@ -1,0 +1,52 @@
+.appContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content; /* Cambiar a fit-content para evitar el desbordamiento */
+    width: 100%; /* Ajustar el ancho */
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #3f48cc;
+    border: #ffcb17 0.2rem solid;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;
+    overflow: visible;
+}
+
+.appContainer h2 {
+    font-family: "Gadugi", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: antiquewhite;
+    -webkit-text-stroke-width: 0.1px; 
+    -webkit-text-stroke-color: rgb(0, 0, 0); 
+}
+
+.allApps p {
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+    margin: 1rem;
+    border: 1px solid #8404fc;
+    border-radius: 1rem;
+    background-color: #091141;
+    font-family: "Calibri", sans-serif;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.1px; 
+    -webkit-text-stroke-color: rgb(0, 0, 0); 
+}
+
+.allApps strong{
+    color: #ff4297;
+}
+
+.select {
+    padding: 0.5rem;
+    color: #ff4297;
+    background-color: #091141;
+    border: #ffcb17 0.2rem solid;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}

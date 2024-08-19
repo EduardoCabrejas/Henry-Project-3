@@ -1,0 +1,133 @@
+.titleContainer {
+    text-align: center;
+}
+
+.title {
+    margin: 1rem;
+    display: inline-block; 
+    font-size: 3rem;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: #3f48cc 0.2rem solid;
+    background-color:#091141;
+    font-family: "Calibri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #ddad29;
+    -webkit-text-stroke-width: 0.2px; 
+    -webkit-text-stroke-color: black; 
+}
+
+.container {
+    width: 90%;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #091141;
+    border: #3f48cc 0.2rem solid;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.container > * {
+    width: 80vw; 
+    margin-bottom: 1rem; 
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9998;
+}
+
+.container h2 {
+    font-family: "Calibri", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: #ddad29;
+    -webkit-text-stroke-width: 0.2px; 
+    -webkit-text-stroke-color: black;
+}
+
+.container p {
+    margin: auto;
+    font-family: "Cambria", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.2px; 
+    -webkit-text-stroke-color: black;
+}
+
+.container p strong {
+    color:#ddad29
+}
+
+.imgContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0; /* Elimina el espacio entre las filas de la cuadrícula */
+    align-content: start; /* Alinea las imágenes al inicio del contenedor */
+    margin: auto;
+}
+
+.img {
+    border: #3f48cc 0.2rem solid;
+    width: 95%;
+    height: 65%;
+    align-self: center;
+    cursor: zoom-in;
+}
+
+.img1 {
+    border: #3f48cc 0.2rem solid;
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    cursor: zoom-in;
+}
+
+.img.zoomed{
+    cursor: zoom-out;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9999;
+    transition: transform 1s ease;
+    transform: scale(1.5);
+}
+
+.img1.zoomed {
+    cursor: zoom-out;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 9999;
+    transition: transform 1s ease;
+    transform: scale(1.2);
+}
